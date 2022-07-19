@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Build a Tribute Page</title>
 </head>
 
@@ -15,14 +15,15 @@
 
   <P id="description">Thank you for taking the time to help us improve the platform</P>
   <form id="survey-form">
-    <label id="name-label" for="">Name</label>
-    <input id="name" type="text" required placeholder="Enter your name" value="Enter your name">
-    <label id="email-label" for="">E-mail</label>
-    <input id="email" type="email" required placeholder="Enter your Email" value="Enter your Email">
+    <div id="inputContainer">
+    <label id="name-label" for="">Name</label><br/>
+    <input id="name" type="text" required placeholder="Enter your name" value="Enter your name"><br />
+    <label id="email-label" for="">E-mail</label><br />
+    <input id="email" type="email" required placeholder="Enter your Email" value="Enter your Email"><br />
 
-    <label id="number-label" for="">Age (optional)</label>
-    <input id="number" type="number" min="10" max="99" placeholder="select your age" value="10">
-
+    <label id="number-label" for="">Age (optional)</label><br />
+    <input id="number" type="number" min="10" max="99" placeholder="select your age" value="10"><br />
+    </div>
     <select name="" id="dropdown">
       <option>select current role</option>
       <option>student</option>
@@ -49,6 +50,9 @@
             </textarea><br>
     <input type="submit" name="" id="submit" value="Submit">
   </form>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

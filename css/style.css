@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: #56568f;
+    color: #f3f3f3;
+}
+
+#survey-form{
+    display: inline-block;
+    background-color: #2b2b4a;
+    width: 50%;
+    padding: 10%;
+    font-size: large;
+}
